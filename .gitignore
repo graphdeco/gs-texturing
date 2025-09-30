@@ -1,0 +1,7 @@
+*.pyc
+.vscode
+output
+build
+__pycache__/
+*.ipynb
+eval/

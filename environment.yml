@@ -1,0 +1,20 @@
+name: gs_texturing
+channels:
+  - pytorch
+  - nvidia
+  - pytorch3d
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12
+  - pip=25.2
+  - pytorch=2.5.1
+  - pytorch-cuda=12.4
+  - torchvision=0.20.1
+  - pytorch3d
+  - plyfile
+  - tqdm
+  - pip:
+    - submodules/diff-gaussian-rasterization-texture
+    - submodules/simple-knn
+    - submodules/graphdecoviewer

@@ -1,0 +1,6 @@
+[submodule "submodules/simple-knn"]
+	path = submodules/simple-knn
+	url = https://gitlab.inria.fr/bkerbl/simple-knn.git
+[submodule "submodules/graphdecoviewer"]
+	path = submodules/graphdecoviewer
+	url = git@github.com:graphdeco-inria/graphdecoviewer.git
