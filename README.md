@@ -8,7 +8,7 @@ We also provide the configurations to train the models mentioned in the paper,
 as well as the evaluation script that produces the results.
 
 The project's code is based on the original 3DGS project that you can find [here](https://github.com/graphdeco-inria/gaussian-splatting).
-Two main differences are that there has been a major refactoring of the `train.py` file that was aimed to increase readability and extensibility.
+Two main differences are that there has been a major refactoring of the `train.py` file that was aimed to increase readability and extensibility and a similar refactoring of the CUDA code, to better match the equations provided in the original paper (vectors treated as columns, instead of rows).
 
 <a href="https://www.inria.fr/"><img height="100" src="assets/logo_inria.png"> </a>
 <a href="https://univ-cotedazur.eu/"><img height="100" src="assets/logo_uca.png"> </a>
